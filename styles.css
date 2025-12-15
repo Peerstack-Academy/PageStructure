@@ -43,7 +43,7 @@ body{
 
 #basliq {
     background-color: red;
-    padding: 15.44px;
+    box-sizing: border-box;
 }
 #inner_basliq{
     margin:auto;
@@ -95,9 +95,9 @@ body{
 }
 #footerbl{
     display: flex;
-    display: flex;
     height: 150px;
     justify-content: space-evenly;
+    box-sizing: border-box;
 }
 .basliq h3{
     color: #8B0000;
@@ -106,13 +106,11 @@ body{
 }
 .basliq p{
     color: red;
-    line-height: 0.5cm;
+    line-height: 0.4cm;
 }
-.basliq{
-    width: 20%;
-}
+
 .son{
-    color: red;z
+    color: red;
 }
 .son span{
     color: #959595;
