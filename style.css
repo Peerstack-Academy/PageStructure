@@ -170,7 +170,32 @@
         height: 15%;
     }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1250px) {
+    #header {
+        height: 5vw;
+    }
+    .center #left-heading ul {
+        font-size: 1vw;
+    }
+    .center #center-right #page-center p {
+        font-size: 0.8vw;
+    }
+    .center #center-right #content h3{
+        font-size: 2vw;
+    }
+    .center #center-right #page-center #button {
+        font-size: 1.2vw;
+        width: 30vw;
+    }
+    .center #left-heading h3 {
+        font-size: 1.6vw;
+    }
+    .center #center-right #content p{
+        font-size: 0.8vw;
+    }
+    #header #information ul li{
+        font-size: 1vw;
+    }
     #header #logo a h3 {
         font-size: 1.9vw;
     }
@@ -181,6 +206,12 @@
         height: 7vw;
     }
     #inner #heading-inner p {
-        font-size: 0.8vw
+        font-size: 0.8vw;
+    }
+    #inner #copyright ul {
+        font-size: 0.8vw;
+    }
+    #inner #heading-inner h3 {
+        font-size: 1.9vw;
     }
 }
